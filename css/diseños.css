@@ -1,0 +1,2178 @@
+.inicio{
+  background: url(imagenes/INICIOFONDO.jpg) no-repeat center top;
+  background-size: 100%;
+  z-index: -1;
+  margin: 0px 0px 0px 0px;
+}
+
+body{
+margin: 0px 0px 0px 0px;
+}
+
+div{
+display: block;
+}
+
+.logo{
+margin: -55px 0px;
+width: 197px;
+height: 193px;
+float: left;
+z-index: 3;
+}
+
+nav{
+background-color: rgba(0,0,0,0);
+height: 125px;
+margin: 0px;
+}
+
+
+#fondo-nav{
+background: url(imagenes/HUELLITAS.jpg) no-repeat center top;
+background-size: 100% 100%;
+opacity: 0.13;
+width: 100%;
+height: 125px;
+float: top left;
+margin: 0px 0px;
+position: absolute;
+z-index: -1;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 50px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 50px;
+font-family: 'Teko', sans-serif;
+}
+nav ul li a{
+padding: 0 25px;
+font-size: 35px;
+color: #000000;
+text-decoration: none;
+}
+nav ul li a:hover{
+  color:  #DAA600;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.icono{
+width: 50px;
+height: 50px;
+display: block;
+position: static;
+float: right;
+}
+
+.icono:hover{
+animation: vibrate-1 0.3s linear infinite both;
+}
+
+hr{
+border-width: 3px;
+border-color: white;
+border-style: solid;
+margin: 0;
+}
+
+.contenido{
+  height: 560px;
+  margin-bottom: -20px;
+  position: relative;
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#sn{
+background: url(imagenes/PERROSYGATOS.jpg) no-repeat center top;
+background-size: 100% 100%;
+margin-top: 0px;
+}
+
+#columnas{
+display: flex;
+justify-content: space-between;
+}
+
+.opciones-principal{
+background-repeat: no-repeat;
+}
+
+#adoptar{
+background: url(imagenes/Imagen1.png);
+height: 560px;
+width: 450px;
+z-index: 1;
+background-size: 100% 100%;
+}
+
+#donar{
+background: url(imagenes/AT.jpg);
+height: 560px;
+width: 450px;
+z-index: 1;
+background-size: 100% 100%;
+}
+
+#voluntariado{
+background: url(imagenes/Imagen3.png);
+height: 560px;
+width: 449px;
+z-index: 1;
+background-size: 100% 100%;
+}
+
+.dar-color{
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#azul{
+  background-color: rgba(63, 191, 191, 0.2);
+  height: 560px;
+  width: 450px;
+}
+
+#amarillo{
+  background-color: rgba(235, 196, 22, 0.418);
+  height: 560px;
+  width: 450px;
+}
+
+#rojo{
+  background-color: rgba(219, 65, 137, 0.459);
+  height: 560px;
+  width: 449px;
+}
+
+#d1{
+margin-left: 70px;
+margin-top: 60px;
+width: 370px;
+z-index: 2;
+font-family: 'Oswald', sans-serif;
+animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+#desc-compañia{
+margin-left: 20px;
+margin-top: 20px;
+width: 400px;
+padding: 5px 20px;
+z-index: 2;
+position: absolute;
+color: white;
+font-family: 'Teko', sans-serif;
+background-color: rgba(83, 169, 0, 0.5);
+border-radius: 20px;
+text-align: center;
+}
+
+#amarillito{
+background-color: #DAA600;
+width: 235px;
+height: 60px;
+float: top left;
+margin: 0px 0px;
+z-index: -1;
+position: absolute;
+}
+
+h1{
+font-size: 55px;
+font-weight: 900;
+color: black;
+}
+
+
+#ma{
+color: #53A9AD;
+font-weight: 1000;
+}
+
+.general{
+height: 333px;
+position: relative;
+}
+
+
+footer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 143px;
+padding: 30px 40px 0px;
+background: url(imagenes/FOOTER.png) no-repeat center bottom;
+background-size: 100% 95%;
+float: left;
+display: block;
+z-index: 1;
+box-sizing: border-box;
+margin-top: -20px;
+}
+
+#logo-pie .logo{
+  height: 150px;
+  margin: -40px 0px;
+  position: relative;
+}
+
+.btn{
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 7px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 23px;
+}
+
+#btn-donar{
+margin-left: 50px;
+margin-top: 240px;
+}
+
+#btn-voluntariado{
+font-size: 40px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: 12px;
+}
+
+.desc-opciones{
+margin-top: 0px;
+text-align: center;
+}
+
+
+footer ul{
+margin: 0;
+padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+footer ul li{
+display: inline-block;
+line-height: 50px;
+font-family: 'Teko', sans-serif;
+}
+
+footer #contacto ul li{
+list-style: none;
+display: block;
+line-height: 30px;
+}
+
+#contactanos{
+font-size: 30px;
+}
+
+footer ul li a{
+padding: 0 5px;
+}
+
+#contacto{
+justify-content: center;
+align-items: center;
+position: relative;
+width: 200px;;
+color: white;
+margin-left: 400px;
+font-size: 20px;
+float: left;
+}
+
+#iconos-pie{
+float: right;
+position: relative;
+margin-top: 15px;
+}
+
+#cel-contacto{
+width: 10px;
+margin-left: -5px;
+margin-right: 5px;
+}
+
+#fijo-contacto{
+width: 20px;
+margin-left: -10px;
+}
+
+.pg-actual{
+border-bottom-color: #DAA600;
+border-bottom-style: solid;
+border-bottom-width: 3px;
+}
+
+#vision{
+width: 100%;
+color: black;
+margin-top: 20px;
+padding: 10px 50px;
+box-sizing: border-box;
+height: 100%;
+}
+
+.desc-m-v{
+font-size: 30px;
+margin: 40px;
+margin-left: 55px;
+box-sizing: border-box;
+width: 600px;
+}
+
+.titulo-m-v{
+color: white;
+float: left;
+font-size: 50px;
+width: 10px;
+word-wrap: break-word;
+line-height: 35px;
+text-align: center;
+}
+
+.palabras-m-v{
+background-color: rgba(228, 108, 10, 0.7);
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+padding: 10px;
+padding-left: 20px;
+box-sizing: border-box;
+width: 55%;
+float: left;
+margin-top: 15px;
+margin-left: 70px;
+}
+
+.img-m-v{
+width: 460px;
+height: 260px;
+box-sizing: border-box;
+margin: 0px;
+border-radius: 25px;
+}
+
+#img-vision{
+float: right;
+box-sizing: border-box;
+margin-right: 10px;
+}
+
+#mision{
+width: 100%;
+color: black;
+padding: 10px 50px;
+box-sizing: border-box;
+margin-top: -300px;
+}
+
+#palabras-mision{
+background-color: rgba(146, 208, 80, 0.77);
+float: right;
+margin-right: 70px;
+margin-left: 0px;
+padding-right: 40px;
+padding-left: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+margin-bottom: 20px;
+}
+
+#img-mision{
+float: left;
+box-sizing: border-box;
+margin-right: 0px;
+}
+
+#titulo-mision{
+float: right;
+margin-top: 15 px;
+}
+
+#desc-mision{
+margin: 20px;
+margin-top: 10px;
+font-size: 25px;
+}
+a{
+  text-decoration: none;
+}
+
+/*---------------------------------------------------- Animaciones-------------------------------------------------------------------------*/
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/*-------------------------------- D I S E Ñ O   P A G I NA   D E   I N I C I O   D E   S E S I O N --------------------------------------- */
+
+#sec-ini-sesion{
+  background-color: #000000;
+  display: flex;
+}
+
+#contenedor-inicio-sesion{
+  margin-left: 120px;
+}
+
+#iniciosesion{
+  color: #DAA600;
+  font-size: 60px;
+}
+#perro-inicio-sesion{
+  width: 813px;
+  height: 621px;
+}
+
+#usu-alter{
+  display: flex;
+}
+
+#conta-alter{
+  display: flex;
+}
+
+
+#correo{
+  background-color: rgb(0, 0, 0);
+  font-family: 'Oswald', sans-serif;
+  border-block-end-color: #ffffff;
+  border-block-start-color: #000000;
+  border-inline-end-color: #000000;
+  border-inline-start-color: #000000;
+  font-size: 30px;
+  text-align: center;
+  width: 450px;
+  color: rgb(255, 255, 255)
+}
+#contaseña-inicio-sesion{
+  background-color: transparent;
+  border-block-end-color: #ffffff;
+  border-block-start-color: transparent;
+  border-inline-end-color: transparent;
+  border-inline-start-color:transparent;
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  color: rgb(255, 255, 255);
+}
+
+.iconos-iniciar{
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+}
+
+.letra-amarilla { 
+  text-decoration: none;
+  color: #DAA600;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+#ingresar{
+  margin-top: 20px;
+  border-color: black;
+  border-radius: 10px 10px 10px 10px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+.letra-blanca{
+  color: white;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+}
+
+#iniciar-con{
+  color: #ffffff;
+  text-align: left;
+}
+
+#iniciar-con-iconos{
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+#no-registrado{
+  padding-left: 40px;
+  padding-right: 100px;
+}
+
+#iniciar-con-iconos li{
+  list-style: none;
+}
+
+#iniciar-con-iconos ul{
+  display: flex;  
+}
+
+#footer-inicio-sesion{
+  margin-top: -40px;
+}
+
+/*---------------------------------------D I S E Ñ O   P A G I NA   D E   R E G I S T R O --------------------------------------------------*/
+
+#sec-registrar{
+  margin: 0%;
+  background-image: url(imagenes/fondo-registrar.jpg);
+  text-align: center;
+}
+
+#unete-manada{
+  color: #7E36B4;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0%;
+}
+
+#registrar-con li{
+  list-style: none;
+}
+
+#registrar-con ul{
+  display: flex;
+  align-content: center;
+}
+
+#registrar-con a{
+  text-decoration: none;
+}
+ 
+#registrar-con{
+  display: flex;
+  justify-content: left;
+  color: white;
+}
+.icono-registrar{
+  width: 50px;
+  height: 50px;
+  margin: 25px 65px 15px 65px;
+}
+
+#datos{
+  display: flex;
+  font-family: 'Teko', sans-serif;
+}
+
+#datos-registrar{
+  display: flex;
+  text-align: left;
+  color: white;
+}
+
+#div-registrar{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#subtitulo-registrar{
+  color: white;
+}
+#datos-2-registrar{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+#datos-1-registrar{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+.cajas-registro{
+  background-color: transparent;
+  border-block-end-color: #ffffff;
+  border-block-start-color: transparent;
+  border-inline-end-color: transparent;
+  border-inline-start-color:transparent;
+  font-size: 14px;
+  text-align: center;
+  width: 350px;
+  color: rgb(255, 255, 255);
+}
+
+#opcion-rosadita{
+  color: #E12466;
+}
+
+#opcion-verdesita{
+  color: #53A9AD; 
+}
+
+#opcion-amarillita{
+  color: #DAA600;
+}
+
+#datos-registrar input{
+    margin-top: 30px;
+}
+
+#datos-registrar button{
+  margin-top: 70px;
+  background-color: white;
+  border-radius: 8px;
+  border-color: transparent;  
+  color: #53A9AD;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#fecha{
+  background-color: transparent;
+  color: white;
+  border-block-end-color: white;
+  border-block-start-color: white;
+  border-inline-end-color: white;
+  border-inline-start-color: white;
+  border-radius: 8px; 
+  font-size: 15px;
+}
+
+/*---------------------------------------D I S E Ñ O   P A G I NA   D E   A D O P TA   O  A P A D R I N A--------------------------------------------------*/
+#text1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: #53A9AD;
+  margin: 10px;
+}
+#text2{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  color: #DAA600;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 5px;
+}
+#text3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #7E36B4;
+  margin: 0px;
+}
+#linea{
+  border: #690166 2px solid ;
+  font-size: 7px;
+  margin: 0px;
+}
+.combobox{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  border-radius: 8px;
+  color: #DAA600;
+  border: #53A9AD 1.5px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#filtrar{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  border-radius: 8px;
+  color: white;
+  background-color: #53A9AD;
+  border: rgb(0, 0, 0) 3px solid;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+#combitos{
+  display: flex;
+  justify-content: space-evenly; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cuadro-mascotas ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-adop{
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+}
+
+.cuadro-mascotas h1{
+  margin: 0%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-shadow:
+   -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+   -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+}
+
+.fondo-hembra{
+  background-image: url(../css/imagenes/hembra.jpg);
+  width: 270px;
+  height: 280px;
+}
+
+.fondo-macho{
+  background-image: url(../css/imagenes/macho.jpg);
+  width: 270px;
+  height: 280px;
+}
+
+#contenedor-de-mascotas button{
+  border-radius: 10px 10px 10px 10px;
+  background-color: transparent;
+  border-block-end-color: black;
+  border-block-start-color: black;
+  border-inline-end-color: black;
+  border-inline-start-color:black;
+  font-size: 20px;
+  width: 70px;
+  font-family: 'Teko', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  margin-left: 70%;
+  margin-right: 5%;
+  margin-top: -10px;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  D E S C R I P C I Ó N  M A S C O T A-----------------------------------*/
+
+.foto_mascota_principal{
+  height: 600px;
+  width: 750px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#section_informacion_mascota{
+  display: flex;
+}
+
+#div_de_historia_descripcion{
+  display: flex;
+}
+
+.fotos_mascota{
+  width: 134px;
+  height: 105;;
+}
+
+#div_historia{
+  height: 100%;
+  width: 50%;
+  margin-right: 10%;
+  font-family: 'Oswald', sans-serif;
+  color: #000000; 
+}
+#div_descripcion{
+  font-family: 'Oswald', sans-serif;
+  color: #000000; 
+}
+
+#historia_mascotita{
+  text-align: justify;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#section_informacion_mascota h1{
+  color: #E4E2EC;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-shadow:
+   -1px -1px 0 #1D70C4,  
+    1px -1px 0 #1D70C4,
+   -1px 1px 0  #1D70C4,
+    1px 1px 0  #1D70C4;
+  margin: 10px;
+}
+
+#section_informacion_mascota h2{
+  color: #DAA600;
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#adoptar_mascota{
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border-block-end-color: black;
+  border-block-start-color: black;
+  border-inline-end-color: black;
+  border-inline-start-color:black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 5px;
+}
+
+#apadrinar_mascota{
+  border-radius: 10px 10px 10px 10px;
+  background-color: transparent;
+  border-block-end-color: black;
+  border-block-start-color: black;
+  border-inline-end-color: black;
+  border-inline-start-color:black;
+  border-inline-start-color:black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#liniesita{
+  border: #690166 2px solid ;
+  font-size: 3px;
+  margin: 0px;
+}
+
+#div_descipcion ul{
+text-decoration: none;
+display: flex;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  A D O P T A  F O R M U L A R I O-----------------------------------*/
+ #formulario{
+   display: flex;
+ }
+
+ #div_formulario{
+   margin-left: 100px;
+ }
+
+ #section_adoptar_formulario{
+   display: flex;
+   align-content: space-between;
+   margin: 0px;
+ }
+
+ #section_adoptar_formulario h3{
+  font-family: 'Teko', sans-serif;
+  opacity: 0.65;
+  color: #000000;
+ }
+
+#h3_1{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 10%;
+}
+
+ #h3_2{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 40%;
+ }
+
+ #section_adoptar_formulario h1{
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  color: #DAA600;
+  margin: 0px;
+  text-align: center;
+ }
+
+ #div_formulario img{
+   width: 400px;
+   height: 500px;
+   position: absolute;
+   z-index: -1;
+   opacity: 0.2;
+ }
+
+ #div_formulario #liniesita{
+  border: #690166 2px solid ;
+  font-size: 3px;
+  margin: 0px;
+}
+ #section_adoptar_formulario h2{
+  color: #7E36B4;
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+ }
+
+ #requi1{
+  border: #000000 2px solid;
+  border-block-end-color: black;
+  border-block-start-color: transparent;
+  border-inline-end-color: transparent;
+  border-inline-start-color:transparent;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+ }
+ 
+ #requi1 h2{
+   margin: 0px;
+ }
+
+ #requi2{
+  border-radius: 25px 25px 15px 15px;
+  border: #000000 2px solid;
+  padding: 5px;
+  margin: 30px;
+  margin-left: 60px; 
+  margin-right: 60px; 
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  color: #000000;
+ }
+
+ #formulario_mitad1{
+  margin-right: 200px;
+ }
+ .input_bonis{
+  background-color: transparent;
+  border-block-end-color: #000000;
+  border-block-start-color: transparent;
+  border-inline-end-color: transparent;
+  border-inline-start-color:transparent;
+  font-size: 15px;
+  text-align: center;
+  width: 320px;
+  color: rgb(0, 0, 0);
+ }
+
+ #formulario_mitad2 select{
+   background-color: #000000;
+   border-radius: 5px;
+   color: white;
+   margin: 5px;
+   margin-bottom: 0%;
+   margin-top: 0;
+   border: transparent;
+   padding: 3px;
+ }
+
+ #formulario_mitad2 ul{
+   margin: 0%;
+   padding-left: 0;
+ }
+
+#año{
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 0%;
+  margin-top: 0;
+  width: 60px;
+  border: transparent;
+  padding: 3px;
+}
+
+ #adoptar_mascota{
+   border-radius: 10px;
+   border: #000000 3px solid;
+   background-color: #53A9AD;
+   border-color: #000000;
+   font-family: 'Teko', sans-serif;
+ }
+
+ .label_adopta{
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+
+ /*---------------------------------D I S E Ñ O   P A G I N A   D E  A P A D R I N A  F O R M U L A R I O-------------------------------*/
+
+ #formulario_apadrina{
+  display: flex;
+}
+
+#div_formulario_apadrina{
+  margin-left: 100px;
+}
+
+#section_apadrina_formulario{
+  display: flex;
+  align-content: space-between;
+  margin: 0px;
+}
+
+#section_adoptar_formulario h3{
+ font-family: 'Teko', sans-serif;
+ opacity: 0.65;
+ color: #000000;
+}
+
+#h3_1_apa{
+ margin-top: 2px;
+ margin-bottom: 2px;
+ margin-left: 10%;
+}
+
+#h3_2_apa{
+ margin-top: 2px;
+ margin-bottom: 2px;
+ margin-left: 20%;
+}
+
+#section_apadrina_formulario h1{
+ font-size: 50px;
+ font-family: 'Oswald', sans-serif;
+ color: #DAA600;
+ margin: 0px;
+ text-align: center;
+}
+
+#div_formulario_apadrina img{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#div_formulario_apadrina #liniesita{
+ border: #690166 2px solid ;
+ font-size: 3px;
+ margin: 0px;
+}
+
+
+#requi1_apadrina{
+ border: #000000 2px solid;
+ border-block-end-color: black;
+ border-block-start-color: transparent;
+ border-inline-end-color: transparent;
+ border-inline-start-color:transparent;
+ padding: 0px;
+ margin: 0px;
+ text-align: center;
+}
+
+#requi1_apadrina h2{
+  margin: 0px;
+  color: #7E36B4;
+ font-size: 30px;
+ font-family: 'Teko', sans-serif;
+}
+
+#requi2_apadrina{
+ border-radius: 25px 25px 15px 15px;
+ border: #000000 2px solid;
+ padding: 5px;
+ margin: 30px;
+ margin-left: 60px; 
+ margin-right: 60px; 
+ color: #000000;
+ font-family: 'Teko', sans-serif;
+font-size: 20px;
+}
+
+#formulario_mitad1_apadrina{
+ margin-right: 200px;
+}
+
+.input_bonis_apadrina{
+ background-color: transparent;
+ border-block-end-color: #000000;
+ border-block-start-color: transparent;
+ border-inline-end-color: transparent;
+ border-inline-start-color:transparent;
+ font-size: 15px;
+ text-align: center;
+ width: 320px;
+ color: rgb(0, 0, 0);
+}
+
+#formulario_mitad2_apadrina select{
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 0%;
+  margin-top: 0;
+  border: transparent;
+  padding: 3px;
+}
+
+#formulario_mitad2_apadrina ul{
+  margin: 0%;
+  padding-left: 0;
+}
+
+#año{
+ background-color: #000000;
+ border-radius: 5px;
+ color: white;
+ margin: 5px;
+ margin-bottom: 0%;
+ margin-top: 0;
+ width: 60px;
+ border: transparent;
+ padding: 3px;
+}
+
+#apadrina_mascota{
+  border-radius: 10px;
+  border: #000000 3px solid;
+  background-color: #53A9AD;
+  border-color: #000000;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.label_apadrina{
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+
+
+/*---------------------------------D I S E Ñ O   P A G I N A   D E  D O N A C I O N -------------------------------*/
+
+
+
+#titulo_imagen{
+  display: flex;
+  justify-content: center;
+}
+
+#section_donaciones h1{
+  font-family: 'Oswald', sans-serif;
+  color: #53A9AD;
+  font-size: 60px;
+  margin: 2px;
+}
+
+#titulo_imagen img{
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+#linia_donaciones{
+  border: #690166 0.7px solid;
+  font-size: 5px;
+  margin: 0%;
+}
+
+#div_general{
+  display: flex;
+  margin: 30px;
+}
+
+#div_frase_imagen{
+  margin-left: 30px;
+}
+
+#div_opciones{
+  margin-top: 30px;
+}
+
+#div_general h2{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  color: #DAA600;
+  margin: 5px;
+}
+
+#div_general h3{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 80px;
+  color: #7E36B4;
+  margin: 5px;
+}
+
+#perro_do{
+  width: 450px;
+  height: 300px;
+}
+
+#div_general p{
+  color: #7E36B4;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+#bancaria{
+  display: flex;
+  margin-top: 70px;
+}
+
+#cosas{
+  display: flex;
+  margin-top: 70px;
+}
+
+
+#cuentita1{
+  height: 60px;
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#cuentita2{
+  height: 80px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  S O L I C I T U D  I N T E R C A M B I O -------------------------------*/
+
+#div_formulario_intercambio{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.display_flex{
+  display: flex;
+}
+
+#div_frase_imagen_intercambio{
+  
+  height: 100%;
+}
+
+#titulo_imagen_solicitud{
+  display: flex;
+  justify-content: center;
+}
+
+#titulo_imagen_solicitud img{
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+#gatito_intercambio{
+  width: 350px;
+  height: 500px;
+}
+
+#section_solicitud_intercambio h1{
+  font-family: 'Open Sans Condensed', unset;
+  color: #53A9AD;
+  font-size: 60px;
+  margin: 2px;
+}
+
+#section_solicitud_intercambio h4{
+  font-family: 'Open Sans Condensed', unset;
+  color: #DAA600;
+  font-size: 36px;
+  margin: 5%;
+  text-align: center;
+}
+
+#linia_solicitud_intercambio{
+  border: #690166 0.7px solid;
+  font-size: 5px;
+  margin: 0%;
+}
+
+#section_solicitud_intercambio span{
+  font-family: 'Open Sans Condensed', inherit ;
+  font-size: 20px;
+  color: #000000;
+}
+
+.input_bonis_intercambio{
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0) 2px solid;
+  width: 400px;
+}
+
+#section_solicitud_intercambio ul{
+  list-style: none;
+  display: flex;
+}
+
+.imagenes_intercambio{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: #000000 2px solid;
+}
+#section_solicitud_intercambio li{
+  margin-left: 10%;
+}
+
+#section_solicitud_intercambio h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  color: #DAA600;
+  margin: 5px;
+}
+
+#section_solicitud_intercambio h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 80px;
+  color: #7E36B4;
+  margin: 5px;
+}
+
+#datos_intercambio{
+  width:  70%;
+  height: 100%;
+  margin-left: auto;
+}
+
+#subir_soli{
+  border-radius: 8px;
+  border: rgb(0, 0, 0) 1px solid;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#solicitar_soli{
+  border-radius: 13px;
+  border: #000000 5px solid;
+  color: #ffffff;
+  background-color: #53A9AD;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', inherit;
+}
+
+#mesalva{
+  height: 100px;
+  width: 350px ;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  V O L U N T A R I A D O -------------------------------*/
+.galeria_voluntariado{
+  width: 162px;
+}
+
+#linia_volu{
+  border: #690166 2px solid;
+  font-size: 5px;
+  margin: 0%;
+}
+
+#section_voluntariado h1{
+  color: #53A9AD;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+ 
+#section_voluntariado{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#section_voluntariado p{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#fondito_voluntariado{
+  height: 100%;
+  z-index: -1;  
+  position:  absolute;
+  margin-left: 20%;
+  opacity: 0.2;
+}
+
+#volu_1{
+  margin-right: 10%;
+}
+
+.margenes_voluntariado{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+.input_voluntariado{
+  background-color: transparent;
+  border-bottom-color: #000000;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 150%;
+}
+
+#feme_radio{
+  color: #E12466;
+}
+
+#mascu_radio{
+  color: #1D70C4;
+}
+
+#section_voluntariado h2{
+  color: #DAA600;
+  font-size: 23px;
+  font-style: italic;
+}
+
+#section_voluntariado h3{
+  color: #7E36B4;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#section_voluntariado button{
+  margin-left: 50%;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: #000000 5px solid;
+  background-color: #53A9AD;
+  font-size: 25px;
+}
+
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  M E R C A M A S C O T -------------------------------*/
+#section_mercamascot h1{
+  color: #53A9AD;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+#section_mercamascot p{
+  color: #000000;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+#section_mercamascot b{
+  color: #7E36B4;
+  font-size: 20px;
+}
+
+#section_mercamascot select{
+  border-radius: 5px;
+  border: #53A9AD 1px solid;
+  font-size: 20px;
+  color: #DAA600;
+}
+
+.merca_img{
+  width: 30px;
+  height: 30px;
+}
+
+#section_mercamascot ul{
+  text-align-last: justify;
+  text-align: center;
+  margin-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#section_mercamascot .productos{
+  width: 200px;
+  height: 200px;
+}
+
+#section_mercamascot h2{
+  font-size: 15px;
+  margin: 0;
+}
+
+.div_producto{
+  margin-right: 80px;
+  margin-left: 80px;
+  align-content: center;
+  margin-bottom: 60px;
+}
+
+#mercamascot_linia{
+  border: #7E36B4 2px solid;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  z-index: -1;
+}
+
+.boton_agregar{
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgba(83, 168, 173, 0.253);
+  font-size: 25px;
+}
+
+#iran_compras{
+  border-radius: 10px;
+  border: #53A9AD 3px solid;
+  width: 150%;
+  height: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#div_carrito{
+  padding: 25px;
+}
+
+.div_producto button{
+  background-color: #000000;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 30%;
+  font-size: 13px;
+}
+
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  D E S C R I P C I O N  P R O D U C T O-------------------------------*/
+#img_principal_producto{
+  width: 300px;
+  height: 300px;
+  margin: 30px 100px 10px 50px; 
+}
+
+#section_descripcion_producto h1{
+  color: #53A9AD;
+  font-size: 60px;
+  margin: 5px;
+  text-align: center;
+}
+
+#section_descripcion_producto h2{
+  color: #7E36B4;
+  font-size: 20px;
+  margin: 5px;
+}
+
+#section_descripcion_producto  ul{
+  padding: 0;
+  margin: 0;
+}
+
+#descri_producto_linia{
+  border: #7E36B4 2px solid;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  z-index: -1;
+}
+
+#section_descripcion_producto h3{
+  font-size: 10px;
+  color: #000000;
+  opacity: 0.5;
+  text-align: end;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#cuadrado{
+  border-radius: 10px;
+  border: #53A9AD 3px solid;
+  width: 150%;
+  height: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#section_descripcion_producto select{
+  border-radius: 8px;
+  border: #000000 2px solid;
+}
+
+#section_descripcion_producto span{
+  color: #000000; 
+  font-size: 18px;
+}
+
+#azulito{
+  border-radius: 0.8em;
+  background-color: #1D70C4;
+  line-height: 1.6em;
+  width: 1.6em; 
+  margin-right: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+#rojito{
+  background: red;
+   border-radius: 0.8em;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+#verdesito{
+  background-color: green;
+  border-radius: 0.8em;
+  width: 1.6em;
+  display: inline-block;
+  line-height: 1.6em;
+}
+
+#blanquito{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.8em;
+  width: 1.6em;
+  display: inline-block;
+  line-height: 1.6em;
+  border: #000000 1px solid;
+  margin-right: 15px;
+}
+
+#div_descrip{
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+#anadir_carrito{
+  border-radius: 10px;
+  border: #000000 2px solid;
+  background-color: #000000;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.galeria_producto{
+  width: 80px;
+  height: 80px; 
+  margin: 0%; 
+}
+
+#section_descripcion_producto .div_fotitos{
+  margin-left: 30px;
+  border: #000000 2px solid;
+  margin-bottom: 15%;
+  margin-left: 3%;
+  padding-right: 0%;
+}
+
+#section_descripcion_producto #div_fotitos_general{
+  margin-left: 10%;
+}
+
+#section_descripcion_producto input{
+  width: 15px;
+  height: 15px;
+  border: 2px #000000 solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+#section_descripcion_producto .boton- {
+  width: 20px;
+  height: 20px;
+  border: 2px #000000 solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 5px;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E  C A R R I T O  D E  C O M P R A S-------------------------------*/
+
+#section_carrito_compra img{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.div_producto_total{
+  border: #000000 2px solid;
+  width: 900px;
+}
+
+#section_carrito_compra h1{
+  color: #53A9AD;
+  font-size: 60px;
+  margin: 5px;
+  text-align: center;
+}
+
+#section_carrito_compra #div_general{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#section_carrito_compra h2{
+  color: #7E36B4;
+  font-size: 35px;
+}
+
+#section_carrito_compra h3{
+  color: #000000;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#section_carrito_compra h4{
+  color: #0000004f;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#section_carrito_compra h5{
+  color: #000000;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+#section_carrito_compra #linia{
+  border: #7E36B4 2px solid;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#section_carrito_compra #btn1{
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgba(83, 168, 173, 0.308);
+  color: #000000;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+#section_carrito_compra #btn2{
+  border-radius: 10px;
+  border: transparent;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold; 
+  margin: 5px;
+}
+
+#section_carrito_compra #btn3{
+  border-radius: 10px;
+  border: 3px #000000 solid;
+  background-color: white;
+  color: #000000;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#section_carrito_compra #cuadrito_resumen{
+  border: 3px #53A9AD solid;
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+  margin: 5px;
+}
+
+#section_carrito_compra #azulito{
+  border-radius: 0.8em;
+  background-color: #1D70C4;
+  line-height: 1.6em;
+  width: 1.6em; 
+  margin-left: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+#section_carrito_compra #marroncito{
+  border-radius: 0.8em;
+  background-color: rgb(68, 46, 6);
+  line-height: 1.6em;
+  width: 1.6em; 
+  margin-left: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+#div_general input{
+  width: 15px;
+  height: 15px;
+  border: 2px #000000 solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+#div_general .boton- {
+  width: 20px;
+  height: 20px;
+  border: 2px #000000 solid;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+ input[type=number] { -moz-appearance:textfield; }
+
+
+#section_carrito_compra .div_cantidad{
+  margin-left: 40px;
+}
+
+.divs_espacio{
+  margin-left: 90px;
+  margin-right: 95px;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E   P A G A R-------------------------------*/
+
+#section_pagar h1{
+  color: #53A9AD;
+  font-size: 60px;
+  margin: 5px;
+  text-align: center;
+}
+
+#section_pagar h2{
+  color: #7E36B4;
+  font-size: 35px;
+}
+
+#section_pagar .input_bonitos{
+  border: #223344 3px solid;
+  border-block-end-color: #000000;
+  border-block-start-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 350px;
+  background-color: transparent;
+}
+
+#section_pagar #btn1{
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgba(83, 168, 173, 0.308);
+  color: #000000;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+#section_pagar #btn2{
+  border-radius: 10px;
+  border: transparent;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold; 
+  margin: 5px;
+}
+
+#section_pagar #cuadrito_resumen{
+  border: 3px #53A9AD solid;
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+  margin: 5px;
+}
+
+#section_pagar #linia{
+  border: #7E36B4 2px solid;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#section_pagar .div_separar{
+  margin: 20px 100px 30px 100px;
+}
+
+#section_pagar .estexd{
+  margin-left: 100px;
+}
+
+#section_pagar span{
+  font-size: 20px;
+  color: #000000;
+}
+
+#section_pagar .selectfecha{
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: transparent;
+  color: white;
+  padding: 5px;
+}
+
+#pintar{
+  background-color: rgba(83, 168, 173, 0.192);  
+  border-radius: 15px;
+  margin-left: 70px;
+}
+
+/*-------------------------------D I S E Ñ O   P A G I N A   D E   P A G A R-------------------------------*/
+
+
+.iconitos_comunicate{
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+
+.subtitulos{
+  width: 450px;
+}
+
+.mascota_h1{
+  color: #53A9AD;
+  text-align: center;
+  font-size: 50px;
+}
+
+.mascota_h2{
+  color: #000000;
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.mascota_h3{
+  color: #DAA600;
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.mascota_h4{
+  color: #7E36B4;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0; 
+  margin-top: 42px;
+}
+
+.numero_telefonico{
+  border-radius: 8px;
+  border: #DAA600 2px solid;
+  background-color: rgba(218, 167, 0, 0.712);
+  color: white;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.comunicate_div{
+  background-color: rgba(125, 54, 180, 0.363);
+  width: 400px;
+}
+
+.linia_mi_mascota{
+  border: #7E36B4 2px solid;
+  font-size: 15px;
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.fondo-hembra_mi_mascota{
+  background-image: url(../css/imagenes/hembra.jpg);
+  width: 200px;
+  height: 250px;
+  margin: 50px;
+}
+
+.fondo-macho_mi_mascota{
+  background-image: url(../css/imagenes/macho.jpg);
+  width: 200px;
+  height: 250px;
+  margin: 50px;
+}
+
+/*------------------- M A S C O T A S   P E R D I D A S  ---------*/
+
+#div_mascotas_perdidas h5{
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+#div_mascotas_perdidas span{
+  font-size: 15px;
+}
+
+#section_mi_mascota .img_perdidas{
+  widows: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+
+
+/*------------------- D E S C R I P C I O N   M A S C O T A S   P E R D I D A S  ---------*/
+
+.fotos_prinicipal_mascota_perdida{
+  width: 350px;
+  height: 350px;
+}
+
+.fotos_mascota_perdida{
+  width: 100px;
+  height: 100px;
+}
+
+#section_descripcion_mascota_perdida h6{
+  color: #DAA600;
+  font-size: 20px;
+  margin: 30px 0px 10px 0px;
+}
+
+#section_descripcion_mascota_perdida p{
+  color: #000000;
+  font-size: 15px;
+  text-align: start;
+}
+
+#section_descripcion_mascota_perdida #linia{
+  border: #7E36B4 1px dashed;
+  margin: 30px;
+  height: 130px;
+}
+
+#section_descripcion_mascota_perdida span{
+  margin: 0;
+}
+
+
+
+
+ /*------------------------------------------ I N T E N T O   D E   R E S P O N S I V O---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+ 
