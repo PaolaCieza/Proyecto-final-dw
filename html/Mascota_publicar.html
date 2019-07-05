@@ -72,7 +72,7 @@
         </div>
         <div>
             <div>
-                <select name="tipo_publicacion" id="">
+                <select name="tipopublicacion" id="tipo_publicacion">
                     <option disabled selected>TIPO DE PUBLICACIÓN</option>
                     <option value="">Macota perdida</option>
                     <option value="">Macota encontrada</option>
@@ -83,16 +83,16 @@
                 <h4>PUBLICAR MASCOTA</h4>
                 <div>
                     <div>
-                        <input type="text"> <br> <span>Nombre Macota</span> <br>
-                        <input type="text"> <br> <span>Nombre Contacto</span> <br>
+                        <input type="text" class="input_publicar"> <br> <span>Nombre Macota</span> <br> <br>
+                        <input type="text" class="input_publicar"> <br> <span>Nombre Contacto</span> <br> <br>
                     </div>
                     <div class="display_flex">
                         <div>
-                            <input type="number"> <br> <span>Teléfono</span>
+                            <input type="number" class="input_telefono"> <br> <span>Teléfono</span> <br>
                         </div>
-                        <div>
+                        <div id="div_fecha">
                             <ul>
-                                <select name="dias">
+                                <select name="dias" class="select_fecha">
                                     <option disabled selected>DÍA</option>
                                     <option value="">01</option>
                                     <option value="">02</option>
@@ -127,7 +127,7 @@
                                     <option value="">31</option>
                                 </select>
 
-                                <select name="mes">
+                                <select name="mes" class="select_fecha">
                                     <option disabled selected>MES</option>
                                     <option value="">Enero</option>
                                     <option value="">Febrero</option>
@@ -142,7 +142,7 @@
                                     <option value="">Noviembre</option>
                                     <option value="">Diciembre</option>
                                 </select>
-                                <select name="año" id="">
+                                <select name="año" class="select_fecha">
                                     <option disabled selected>AÑO</option> 
                                     <option value="">2014</option>
                                     <option value="">2015</option>
@@ -153,24 +153,24 @@
                                     <option value="">2020</option>
                                     </option>
                                 </select>
-                            </ul> <br> <span>Fecha de perdida</span>
-                        </div>
-
+                            </ul>  <span>Fecha de perdida</span> 
+                        </div> 
                     </div>
+                    <br>
                     <div>
-                        <input type="email"> <br> <span>E-mail</span> <br>
+                        <input type="email" class="input_publicar"> <br> <span>E-mail</span> <br> <br>
                         <ul>
-                            <select name="mascota" class="">
+                            <select name="mascota" class="select_filtro">
                                 <option disabled selected>MASCOTA</option>
                                 <option value="perro">Perro</option>
                                 <option value="gato">Gato</option>
                             </select>
-                            <select name="genero" class="">
+                            <select name="genero" class="select_filtro">
                                 <option disabled selected>GÉNERO</option>
                                 <option value="hembra">Hembra</option>
                                 <option value="macho">Macho</option>
                             </select>
-                            <select name="edad" class="">
+                            <select name="edad" class="select_filtro">
                                 <option disabled selected>EDAD</option>
                                 <option value="">0-3 meses</option>
                                 <option value="">3-6 meses</option>
@@ -179,7 +179,7 @@
                                 <option value="">3-6 años</option>
                                 <option value="">6 a más años</option>
                             </select>
-                            <select name="tipo-pelo" class="">
+                            <select name="tipo-pelo" class="select_filtro">
                                 <option disabled selected>TIPO DE PELO</option>
                                 <option value="">Lacio</option>
                                 <option value="">Ondulado</option>

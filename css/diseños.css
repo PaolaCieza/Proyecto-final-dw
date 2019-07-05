@@ -2162,6 +2162,68 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+/*------------------- M A S C O T A S   P Ú B L I C A R   ---------*/
+
+#section_mascota_publicar #tipo_publicacion{
+  border-radius: 8px;
+  border: #000000 2px solid;
+  font-size: 20px;
+  background-color: #000000;
+  color: white;
+  margin: 20px;
+
+}
+
+#section_mascota_publicar h4{
+  color: #7E36B4;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+#section_mascota_publicar .input_publicar{
+ background-color: transparent;
+ border-bottom-color: #000000;
+ border-top-color: transparent;
+ border-right-color: transparent;
+ border-left-color: transparent;
+ width: 450px;
+}
+
+#section_mascota_publicar .input_telefono{
+  background-color: transparent;
+  border-bottom-color: #000000;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  width: 200px;
+ }
+
+#section_mascota_publicar ul{
+  margin: 0;
+  padding: 0;
+}
+
+#section_mascota_publicar .select_fecha{
+  border-radius: 6px;
+  border: #53A9AD 1px solid;
+  margin-right: 15px;
+}
+
+#section_mascota_publicar .select_filtro{
+  border-radius: 6px;
+  border: #53A9AD 1px solid;
+  margin-left: 10px;
+}
+
+#section_mascota_publicar #div_fecha{
+  padding-left: 20px;
+}
+
+
+
+
+
 
 
  /*------------------------------------------ I N T E N T O   D E   R E S P O N S I V O---------------------------------*/
