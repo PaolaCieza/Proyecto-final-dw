@@ -319,7 +319,7 @@ border-bottom-color: #DAA600;
 border-bottom-style: solid;
 border-bottom-width: 3px;
 }
-
+/*------------------ C R E O  Q U E  I N I C I A  P G  S O B R E  N O S O T R O S */
 #vision{
 width: 100%;
 color: black;
@@ -331,28 +331,24 @@ height: 100%;
 
 .desc-m-v{
 font-size: 30px;
-margin: 40px;
-margin-left: 55px;
+margin: 20px 10px 5px 10px;
 box-sizing: border-box;
 width: 600px;
 }
 
 .titulo-m-v{
 color: white;
-float: left;
 font-size: 50px;
 width: 10px;
-word-wrap: break-word;
 line-height: 35px;
 text-align: center;
 }
 
 .palabras-m-v{
 background-color: rgba(228, 108, 10, 0.7);
-border-bottom-left-radius: 25px;
-border-bottom-right-radius: 25px;
-padding: 10px;
+border-radius: 25px;
 padding-left: 20px;
+padding-right: 10px;
 box-sizing: border-box;
 width: 55%;
 float: left;
@@ -389,10 +385,7 @@ margin-right: 70px;
 margin-left: 0px;
 padding-right: 40px;
 padding-left: 0px;
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
-border-top-left-radius: 25px;
-border-top-right-radius: 25px;
+border-radius: 25px;
 margin-bottom: 20px;
 }
 
