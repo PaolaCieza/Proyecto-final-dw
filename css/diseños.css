@@ -2251,6 +2251,51 @@ input[type=number]::-webkit-outer-spin-button {
   color: #000000;
 }
 
+/*-------------------------------D I S E Ñ O   P A G I N A   D E   N O T I C I A S -------------------------------*/
+
+#section_noticias .logo_noticias{
+  width: 70px;
+  height: 70px;
+}
+
+#section_noticias h1{
+  color: #53A9AD;
+  margin: 0;
+}
+
+
+#section_noticias .div_noti{
+  background-color: #4D4D59;
+  font-size: 35px;
+  color: white;
+  margin: 30px;
+}
+
+#section_noticias .alto_img{
+  height: 200px;
+  margin: 0;
+}
+
+#section_noticias #linea{
+  font-size:  5px;
+  border: #7E36B4 2px solid;
+  margin: 10px 0px 10px 0px;
+}
+
+#section_noticias .div_lado{
+  background-color: #4D4D59;
+  color: white;
+  font-size: 20px; 
+  margin: 10px;
+}
+
+#section_noticias .div_general_lado{
+  color: white;
+  font-size: 20px; 
+  border: #4D4D59 2px solid;
+
+}
+
 
  /*------------------------------------------ I N T E N T O   D E   R E S P O N S I V O---------------------------------*/
 
