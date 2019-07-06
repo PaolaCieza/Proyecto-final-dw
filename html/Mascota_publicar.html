@@ -70,7 +70,7 @@
         <div class="linia_mi_mascota">
             <br> &nbsp
         </div>
-        <div>
+        <div id="div_general_publicar">
             <div>
                 <select name="tipopublicacion" id="tipo_publicacion">
                     <option disabled selected>TIPO DE PUBLICACIÓN</option>
@@ -82,83 +82,94 @@
             <div>
                 <h4>PUBLICAR MASCOTA</h4>
                 <div>
-                    <div>
-                        <input type="text" class="input_publicar"> <br> <span>Nombre Macota</span> <br> <br>
-                        <input type="text" class="input_publicar"> <br> <span>Nombre Contacto</span> <br> <br>
-                    </div>
-                    <div class="display_flex">
-                        <div>
-                            <input type="number" class="input_telefono"> <br> <span>Teléfono</span> <br>
-                        </div>
-                        <div id="div_fecha">
-                            <ul>
-                                <select name="dias" class="select_fecha">
-                                    <option disabled selected>DÍA</option>
-                                    <option value="">01</option>
-                                    <option value="">02</option>
-                                    <option value="">03</option>
-                                    <option value="">04</option>
-                                    <option value="">04</option>
-                                    <option value="">05</option>
-                                    <option value="">06</option>
-                                    <option value="">09</option>
-                                    <option value="">10</option>
-                                    <option value="">11</option>
-                                    <option value="">12</option>
-                                    <option value="">13</option>
-                                    <option value="">14</option>
-                                    <option value="">15</option>
-                                    <option value="">16</option>
-                                    <option value="">17</option>
-                                    <option value="">18</option>
-                                    <option value="">19</option>
-                                    <option value="">20</option>
-                                    <option value="">21</option>
-                                    <option value="">22</option>
-                                    <option value="">23</option>
-                                    <option value="">23</option>
-                                    <option value="">24</option>
-                                    <option value="">25</option>
-                                    <option value="">26</option>
-                                    <option value="">27</option>
-                                    <option value="">28</option>
-                                    <option value="">29</option>
-                                    <option value="">30</option>
-                                    <option value="">31</option>
-                                </select>
+                    <div id="div_lado_foto" class="display_flex">
 
-                                <select name="mes" class="select_fecha">
-                                    <option disabled selected>MES</option>
-                                    <option value="">Enero</option>
-                                    <option value="">Febrero</option>
-                                    <option value="">Marzo</option>
-                                    <option value="">Abril</option>
-                                    <option value="">Mayo</option>
-                                    <option value="">Junio</option>
-                                    <option value="">Julio</option>
-                                    <option value="">Agosto</option>
-                                    <option value="">Setiembre</option>
-                                    <option value="">Octubre</option>
-                                    <option value="">Noviembre</option>
-                                    <option value="">Diciembre</option>
-                                </select>
-                                <select name="año" class="select_fecha">
-                                    <option disabled selected>AÑO</option> 
-                                    <option value="">2014</option>
-                                    <option value="">2015</option>
-                                    <option value="">2016</option>
-                                    <option value="">2017</option>
-                                    <option value="">2018</option>
-                                    <option value="">2019</option>
-                                    <option value="">2020</option>
-                                    </option>
-                                </select>
-                            </ul>  <span>Fecha de perdida</span> 
-                        </div> 
+                        <div>
+                            <div>
+                                <input type="text" class="input_publicar"> <br> <span>Nombre Macota</span> <br> <br>
+                                <input type="text" class="input_publicar"> <br> <span>Nombre Contacto</span> <br> <br>
+                            </div>
+                            <div class="display_flex">
+                                <div>
+                                    <input type="number" class="input_telefono"> <br> <span>Teléfono</span> <br>
+                                </div>
+                                <div id="div_fecha">
+                                    <ul>
+                                        <select name="dias" class="select_fecha">
+                                            <option disabled selected>DÍA</option>
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                            <option value="">06</option>
+                                            <option value="">09</option>
+                                            <option value="">10</option>
+                                            <option value="">11</option>
+                                            <option value="">12</option>
+                                            <option value="">13</option>
+                                            <option value="">14</option>
+                                            <option value="">15</option>
+                                            <option value="">16</option>
+                                            <option value="">17</option>
+                                            <option value="">18</option>
+                                            <option value="">19</option>
+                                            <option value="">20</option>
+                                            <option value="">21</option>
+                                            <option value="">22</option>
+                                            <option value="">23</option>
+                                            <option value="">23</option>
+                                            <option value="">24</option>
+                                            <option value="">25</option>
+                                            <option value="">26</option>
+                                            <option value="">27</option>
+                                            <option value="">28</option>
+                                            <option value="">29</option>
+                                            <option value="">30</option>
+                                            <option value="">31</option>
+                                        </select>
+
+                                        <select name="mes" class="select_fecha">
+                                            <option disabled selected>MES</option>
+                                            <option value="">Enero</option>
+                                            <option value="">Febrero</option>
+                                            <option value="">Marzo</option>
+                                            <option value="">Abril</option>
+                                            <option value="">Mayo</option>
+                                            <option value="">Junio</option>
+                                            <option value="">Julio</option>
+                                            <option value="">Agosto</option>
+                                            <option value="">Setiembre</option>
+                                            <option value="">Octubre</option>
+                                            <option value="">Noviembre</option>
+                                            <option value="">Diciembre</option>
+                                        </select>
+                                        <select name="año" class="select_fecha">
+                                            <option disabled selected>AÑO</option>
+                                            <option value="">2014</option>
+                                            <option value="">2015</option>
+                                            <option value="">2016</option>
+                                            <option value="">2017</option>
+                                            <option value="">2018</option>
+                                            <option value="">2019</option>
+                                            <option value="">2020</option>
+                                            </option>
+                                        </select>
+                                    </ul> <span>Fecha de perdida</span>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <input type="email" class="input_publicar"> <br> <span>E-mail</span> <br> <br>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../css/imagenes/perro_fiel.png" id="perro_fiel">
+                        </div>
                     </div>
-                    <br>
+
                     <div>
-                        <input type="email" class="input_publicar"> <br> <span>E-mail</span> <br> <br>
                         <ul>
                             <select name="mascota" class="select_filtro">
                                 <option disabled selected>MASCOTA</option>
@@ -187,14 +198,16 @@
                             </select>
                         </ul>
                         <input type="checkbox"> <span>Historia</span> <br>
-                        <input type="text" id="texto_historia">
-
+                        <input type="text" id="texto_historia"> <br> <br>
+                        <input type="file" multiple id="adjuntar"> <br> <br>
+                        <center>
+                            <input type="submit" value="PUBLICAR" id="enviar" >
+                        </center>
                     </div>
                 </div>
             </div>
-        </div>
-
-    </section>
+        </div> <br>
+    </section> <br>
     <footer id="footer-inicio-sesion">
         <div id="logo-pie">
             <a href="../index.html"><img class="logo" src="../css/imagenes/logo-pagina-oficial.png"
