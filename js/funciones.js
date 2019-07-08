@@ -1,11 +1,13 @@
 function recibir()
 {
     var valor = document.getElementById("input_texto").value;
-    var newDiv = document.createElement("div");
+    document.getElementById("antesDe").innerHTML=valor;
+    /*var newDiv = document.createElement("div");
     var newContent = document.createTextNode(valor); 
     newDiv.appendChild(newContent);
     var currentDiv = document.getElementById("antesDe");
     document.body.insertBefore(newDiv, currentDiv);
+    */
 } 
 
 function addElement () { 
