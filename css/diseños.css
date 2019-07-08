@@ -2346,9 +2346,6 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: rgba(218, 167, 0, 0.267);
   color: #000000;
 }
-{
-  background-color: rgba(77, 77, 89, 0.74);
-}
 
 #section_noticia_descripcion #imagenes_collage{
   margin: 10px 10px 20px 90px;
