@@ -2155,6 +2155,47 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+/*---------------------------- M A S C O T A S  R E C U P E R A D A S ----------*/
+#div_mascotas_recuperadas h5{
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+#div_mascotas_recuperadas span{
+  font-size: 15px;
+}
+
+#div_mascotas_recuperadas .img_perdidas{
+  widows: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+/*---------------------------- M A S C O T A S  E N C O N T R A D A S ----------*/
+#div_mascotas_encontradas h5{
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+#div_mascotas_encontradas span{
+  font-size: 15px;
+}
+
+#div_mascotas_encontradass .img_perdidas{
+  widows: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
 
 /*------------------- M A S C O T A S   P Ú B L I C A R   ---------*/
 
