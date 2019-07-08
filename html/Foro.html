@@ -40,14 +40,14 @@
                 <div>
                     <div class="display_flex">
                         <h2>PUBLICA TU TEMITA!!</h2>
-                        <input type="button" value="PUBLICAR" id="publicar_foro">
+                        <input type="button" value="PUBLICAR" id="publicar_foro" onclick="recibir()">
                     </div>
                     <input type="text" id="input_texto" placeholder="Escribe aquí tu tema de interés">
                 </div>
                 <div>
                     <h2>TEMAS DE LA COMUDAD!!</h2>
                     <div>
-                            <div class="div_notita display_flex">
+                            <div class="div_notita display_flex" id="antesDe">
                                     <span>¿Que alimentos son recomendables para mi mascota?</span>
                                     <div class="divi display_flex">
                                         <button class="x_foro">x</button>
@@ -186,6 +186,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="/js/funciones.js"></script>
 
 </body>
 
