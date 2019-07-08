@@ -216,7 +216,7 @@ background: url(imagenes/FOOTER.png) no-repeat center bottom;
 background-size: 100% 95%;
 float: left;
 display: block;
-z-index: 2;
+z-index: 4;
 box-sizing: border-box;
 margin-top: -20px;
 }
