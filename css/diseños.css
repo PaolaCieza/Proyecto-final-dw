@@ -91,7 +91,7 @@ margin: 0;
   font-family: 'Teko', sans-serif;
   font-size: 40px;
   color: white;
-  z-index: 0;
+  z-index: -1;
 }
 
 #sn{
