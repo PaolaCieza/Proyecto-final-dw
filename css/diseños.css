@@ -91,6 +91,7 @@ margin: 0;
   font-family: 'Teko', sans-serif;
   font-size: 40px;
   color: white;
+  z-index: -1;
 }
 
 #sn{
@@ -216,7 +217,7 @@ background: url(imagenes/FOOTER.png) no-repeat center bottom;
 background-size: 100% 95%;
 float: left;
 display: block;
-z-index: 2;
+z-index: 4;
 box-sizing: border-box;
 margin-top: -20px;
 }
